@@ -1,0 +1,53 @@
+{
+  "nom": [],
+  "gen": [
+    { "p": "bez", "en": "without", "ex": "Kávu bez cukru, prosím." },
+    { "p": "do", "en": "to, into", "ex": "Jedu do Prahy." },
+    { "p": "z / ze", "en": "from, out of", "ex": "Jsem z Brna." },
+    { "p": "od / ode", "en": "from (a person), since", "ex": "Mám dopis od mámy." },
+    { "p": "u", "en": "at, by, at someone's place", "ex": "Bydlím u babičky." },
+    { "p": "kolem / okolo", "en": "around, past", "ex": "Jdeme kolem parku." },
+    { "p": "podle", "en": "according to, along", "ex": "Podle mapy je to tady." },
+    { "p": "vedle", "en": "next to", "ex": "Sedím vedle okna." },
+    { "p": "během", "en": "during", "ex": "Během léta pracuji." },
+    { "p": "místo", "en": "instead of", "ex": "Místo kávy piju čaj." },
+    { "p": "kromě", "en": "except, apart from", "ex": "Kromě Petra přišli všichni." }
+  ],
+  "dat": [
+    { "p": "k / ke / ku", "en": "to, towards (a person)", "ex": "Jdu k doktorovi." },
+    { "p": "proti", "en": "against", "ex": "Jsem proti tomu návrhu." },
+    { "p": "naproti", "en": "opposite", "ex": "Bydlím naproti nádraží." },
+    { "p": "kvůli", "en": "because of", "ex": "Kvůli dešti zůstanu doma." },
+    { "p": "díky", "en": "thanks to", "ex": "Díky tobě to vím." }
+  ],
+  "acc": [
+    { "p": "pro", "en": "for; to fetch", "ex": "To je dárek pro mámu. Jdu pro Tomáše." },
+    { "p": "přes", "en": "across, over, through", "ex": "Jdeme přes most." },
+    { "p": "skrz", "en": "through", "ex": "Dívám se skrz okno." },
+    { "p": "za", "en": "for (thanks, price); behind (movement)", "ex": "Děkuji za dárek. Auto zajelo za dům.", "two": "ins" },
+    { "p": "na", "en": "to, onto (movement); for (time, purpose)", "ex": "Jdu na poštu. Jedu tam na týden.", "two": "loc" },
+    { "p": "v / ve", "en": "on (days); in (believe in)", "ex": "Přijdu v pondělí. Věřím v Boha.", "two": "loc" },
+    { "p": "o", "en": "for, about (after certain verbs); against (lean)", "ex": "Starám se o psa. Opřel se o zeď.", "two": "loc" },
+    { "p": "po", "en": "up to", "ex": "Voda mi byla po kolena.", "two": "loc" },
+    { "p": "pod", "en": "under (movement)", "ex": "Kočka vlezla pod stůl.", "two": "ins" },
+    { "p": "nad", "en": "above (movement)", "ex": "Pověsil obraz nad postel.", "two": "ins" },
+    { "p": "před", "en": "in front of (movement)", "ex": "Postavil auto před dům.", "two": "ins" },
+    { "p": "mezi", "en": "between, among (movement)", "ex": "Sedl si mezi nás.", "two": "ins" }
+  ],
+  "voc": [],
+  "loc": [
+    { "p": "v / ve", "en": "in (location)", "ex": "Bydlím v Praze.", "two": "acc" },
+    { "p": "na", "en": "on, at (location)", "ex": "Jsem na poště.", "two": "acc" },
+    { "p": "o", "en": "about", "ex": "Mluvíme o filmu.", "two": "acc" },
+    { "p": "po", "en": "after; around", "ex": "Po obědě spím. Chodím po městě.", "two": "acc" },
+    { "p": "při", "en": "during, while, at", "ex": "Při práci poslouchám hudbu." }
+  ],
+  "ins": [
+    { "p": "s / se", "en": "with", "ex": "Jdu do kina s kamarádem." },
+    { "p": "za", "en": "behind (location); to visit someone", "ex": "Za domem je zahrada. Jedu za babičkou.", "two": "acc" },
+    { "p": "pod", "en": "under (location)", "ex": "Kočka spí pod stolem.", "two": "acc" },
+    { "p": "nad", "en": "above (location)", "ex": "Lampa visí nad stolem.", "two": "acc" },
+    { "p": "před", "en": "in front of; before, ago", "ex": "Čekám před školou. Přišel před hodinou.", "two": "acc" },
+    { "p": "mezi", "en": "between, among (location)", "ex": "Sedím mezi Petrem a Janou.", "two": "acc" }
+  ]
+}

@@ -1,0 +1,91 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Pády self-test</title>
+<!-- Open http://localhost:8080/tools/selftest.html while start.bat is running.
+     It checks that every stored answer is accepted by the app's answer checker
+     and that a full practice session runs without errors. Your saved progress is not touched. -->
+<body style="font:15px system-ui;padding:16px">
+<h2>Pády self-test</h2>
+<pre id="out">running…</pre>
+<iframe id="f" src="../index.html?selftest" style="width:420px;height:800px;border:1px solid #ccc"></iframe>
+<script>
+const out = document.getElementById('out');
+const log = [];
+let fails = 0;
+const ok = (cond, msg) => { if (!cond) { fails++; log.push('FAIL ' + msg); } };
+const f = document.getElementById('f');
+f.onload = () => setTimeout(run, 800);
+function run() {
+  const w = f.contentWindow, ev = s => w.eval(s);
+  try {
+    ev('localStorage.setItem = () => {}');            // never overwrite real progress
+    ev('S = defaultState()');
+    const EX = ev('EX');
+    log.push(EX.length + ' exercises loaded');
+    let checked = 0;
+    for (const e of EX) {
+      for (const a of e.answers) {
+        ok(w.check(e, a).ok, `${e.id}: stored answer "${a}" rejected`);
+        checked++;
+        if (['fill', 'phrase', 'chooseprep', 'choose'].includes(e.type))
+          ok(w.check(e, w.fillBlanks(e.prompt, a)).ok, `${e.id}: full sentence rejected`);
+        if (e.type !== 'prepcase') {
+          ev('S.settings.lenient = true');
+          ok(w.check(e, w.stripAccents(a)).ok, `${e.id}: accent-free "${w.stripAccents(a)}" rejected in lenient mode`);
+          ev('S.settings.lenient = false');
+          if (w.stripAccents(a) !== a) ok(!w.check(e, w.stripAccents(a)).ok, `${e.id}: accent-free accepted in strict mode`);
+          ev('S.settings.lenient = true');
+          ok(!w.check(e, a + 'xx').ok, `${e.id}: wrong answer accepted`);
+        }
+      }
+      if (e.type === 'error') ok(w.check(e, e.full).ok, `${e.id}: full corrected sentence rejected`);
+      if (e.type === 'translate') ok(w.check(e, 'Já ' + e.answers[0]).ok, `${e.id}: "Já ..." rejected`);
+    }
+    ok(w.caseFromInput('4') === 'acc' && w.caseFromInput('akuzativ') === 'acc' && w.caseFromInput('6. pád') === 'loc', 'case name parsing');
+    log.push(checked + ' stored answers checked');
+
+    // drive full sessions for every case and the mixed mode: alternate right and wrong answers
+    let steps = 0;
+    for (const [mode, ck] of [['case','nom'],['case','gen'],['case','dat'],['case','acc'],['case','voc'],['case','loc'],['case','ins'],['all'],['quick']]) {
+    w.startSession(mode, ck);
+    ok(ev('Q') && ev('Q.list.length') > 0, 'empty session ' + mode + ' ' + (ck || ''));
+    if (mode === 'case') ok(ev('Q.list').every(x => x.e.case === ck), 'session ' + ck + ' contains other cases');
+    if (mode === 'all') { const cs = new Set(ev('Q.list').map(x => x.e.case)); ok(cs.size === 7, 'mixed session covers only ' + cs.size + ' cases'); ok(ev('Q.list.length') >= 40, 'mixed session too short'); }
+    while (ev('Q') && steps < 2000) {
+      const e = ev('Q.list[Q.i].e');
+      const right = steps % 3 !== 1;
+      w.answer(right ? e.answers[0] : 'zzz');
+      const fb = w.document.getElementById('fb').innerHTML;
+      ok(fb.includes(right ? 'Správně' : 'Not quite'), `${e.id}: feedback missing`);
+      if (!right) {
+        ok(fb.includes(e.explain.slice(0, 20).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;')), `${e.id}: explanation missing`);
+        const rc = (ev('RULES')[e.rule] || {}).case || e.case;
+        if (ev('TABLES')[rc + '-' + (e.num || 'sg')]) ok(fb.includes('class="decl"'), `${e.id}: table missing`);
+      }
+      w.next();
+      steps++;
+    }
+    ok(!w.document.getElementById('done').hidden, 'done screen not shown');
+    }
+    ev("S.settings.num = 'pl'");
+    ok(w.buildSession('case', 'gen').every(e => e.num === 'pl'), 'plural filter');
+    ev("S.settings.num = 'both'");
+    log.push(steps + ' questions answered in a simulated session');
+    const items = ev('S.items');
+    ok(Object.keys(items).length > 0, 'nothing recorded');
+    for (const s of ['progress', 'reference', 'settings', 'home']) {
+      w.show(s);
+      ok(!w.document.getElementById(s).hidden, 'screen ' + s);
+    }
+    for (const m of ['quick', 'preps', 'all', 'weak']) {
+      ok(w.buildSession(m).length > 0, 'mode ' + m + ' produced no exercises');
+    }
+  } catch (err) {
+    fails++; log.push('CRASH ' + err.stack);
+  }
+  log.push(fails ? `${fails} PROBLEM(S)` : 'ALL TESTS PASSED');
+  out.textContent = log.join('\n');
+  document.title = fails ? 'FAILED' : 'PASSED';
+}
+</script>
+</body>

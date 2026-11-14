@@ -1,0 +1,465 @@
+{
+  "nom-sg": {
+    "case": "nom",
+    "title": "Nominative singular · 1. pád · kdo? co?",
+    "columns": ["Demonstr.", "Possessive", "Adjective", "Noun"],
+    "rows": [
+      { "g": "Ma", "label": "Mž", "name": "Masculine animate", "cells": [
+        ["ten", "tento", "tenhle"],
+        ["můj, tvůj, jeho, její", "náš, váš, jejich"],
+        ["česk[ý]", "modern[í]"],
+        ["student", "muž", "koleg[a]"] ] },
+      { "g": "Mi", "label": "Mn", "name": "Masculine inanimate", "cells": [
+        ["ten", "tento", "tenhle"],
+        ["můj, tvůj, jeho, její", "náš, váš, jejich"],
+        ["česk[ý]", "modern[í]"],
+        ["sešit", "pokoj"] ] },
+      { "g": "F", "label": "F", "name": "Feminine", "cells": [
+        ["t[a]", "t[a]to", "t[a]hle"],
+        ["m[á] / moj[e]", "tv[á] / tvoj[e]", "jeho, její", "naš[e], vaš[e], jejich"],
+        ["česk[á]", "modern[í]"],
+        ["žen[a]", "židl[e]", "skříň", "místnost"] ] },
+      { "g": "N", "label": "N", "name": "Neuter", "cells": [
+        ["t[o]", "t[o]to", "t[o]hle"],
+        ["m[é] / moj[e]", "tv[é] / tvoj[e]", "jeho, její", "naš[e], vaš[e], jejich"],
+        ["česk[é]", "modern[í]"],
+        ["měst[o]", "moř[e]", "kuř[e]", "náměst[í]"] ] }
+    ],
+    "notes": [
+      "The nominative is the dictionary form and the subject of the sentence. Also after 'to je': To je můj bratr.",
+      "svůj has no nominative.",
+      "-ost nouns are always feminine (místnost, radost). -um nouns are neuter (muzeum).",
+      "Masculine nouns in -a (kolega, táta) are masculine: ten kolega, můj táta."
+    ]
+  },
+  "nom-pl": {
+    "case": "nom",
+    "title": "Nominative plural · 1. pád",
+    "columns": ["Demonstr.", "Possessive", "Adjective", "Noun"],
+    "rows": [
+      { "g": "Ma", "label": "Mž", "name": "Masculine animate", "cells": [
+        ["t[i]", "t[i]to", "t[i]hle"],
+        ["m[í] / moj[i]", "tv[í] / tvoj[i]", "jeho, její", "naš[i], vaš[i], jejich"],
+        ["češt[í]", "dobř[í]", "modern[í]"],
+        ["student[i]", "kluc[i]", "muž[i]", "učitel[é]", "pán[ové]"] ] },
+      { "g": "Mi", "label": "Mn", "name": "Masculine inanimate", "cells": [
+        ["t[y]", "t[y]to", "t[y]hle"],
+        ["m[é] / moj[e]", "tv[é] / tvoj[e]", "jeho, její", "naš[e], vaš[e], jejich"],
+        ["česk[é]", "modern[í]"],
+        ["sešit[y]", "pokoj[e]"] ] },
+      { "g": "F", "label": "F", "name": "Feminine", "cells": [
+        ["t[y]", "t[y]to", "t[y]hle"],
+        ["m[é] / moj[e]", "tv[é] / tvoj[e]", "jeho, její", "naš[e], vaš[e], jejich"],
+        ["česk[é]", "modern[í]"],
+        ["žen[y]", "židl[e]", "skřín[ě]", "místnost[i]"] ] },
+      { "g": "N", "label": "N", "name": "Neuter", "cells": [
+        ["t[a]", "t[a]to", "t[a]hle"],
+        ["m[á] / moj[e]", "tv[á] / tvoj[e]", "jeho, její", "naš[e], vaš[e], jejich"],
+        ["česk[á]", "modern[í]"],
+        ["měst[a]", "moř[e]", "kuř[ata]", "náměst[í]"] ] }
+    ],
+    "notes": [
+      "Masculine animate: consonant changes before -i: kluk → kluci, Čech → Češi, doktor → doktoři. Adjectives too: český → čeští, velký → velcí, dobrý → dobří.",
+      "-ové: pánové, synové, kolegové. -é: učitelé, přátelé, Angličané.",
+      "Irregular: člověk → lidé, dítě → děti (ty děti, naše děti), přítel → přátelé, pes → psi."
+    ]
+  },
+  "gen-sg": {
+    "case": "gen",
+    "title": "Genitive singular · 2. pád · koho? čeho?",
+    "columns": ["Demonstr.", "Possessive", "Adjective", "Noun"],
+    "rows": [
+      { "g": "Ma", "label": "Mž", "name": "Masculine animate", "cells": [
+        ["t[oho]", "t[oho]to", "t[oho]hle"],
+        ["m[ého], tv[ého], jeho, jej[ího]", "naš[eho], vaš[eho], jejich", "sv[ého]"],
+        ["česk[ého]", "modern[ího]"],
+        ["student[a]", "muž[e]", "koleg[y]"] ] },
+      { "g": "Mi", "label": "Mn", "name": "Masculine inanimate", "cells": [
+        ["t[oho]", "t[oho]to", "t[oho]hle"],
+        ["m[ého], tv[ého], jeho, jej[ího]", "naš[eho], vaš[eho], jejich", "sv[ého]"],
+        ["česk[ého]", "modern[ího]"],
+        ["sešit[u]", "pokoj[e]", "les[a]"] ] },
+      { "g": "F", "label": "F", "name": "Feminine", "cells": [
+        ["t[é]", "t[é]to", "t[é]hle"],
+        ["m[é] / moj[í]", "tv[é] / tvoj[í]", "jeho, její", "naš[í], vaš[í], jejich", "sv[é] / svoj[í]"],
+        ["česk[é]", "modern[í]"],
+        ["žen[y]", "židl[e]", "skřín[ě]", "místnost[i]"] ] },
+      { "g": "N", "label": "N", "name": "Neuter", "cells": [
+        ["t[oho]", "t[oho]to", "t[oho]hle"],
+        ["m[ého], tv[ého], jeho, jej[ího]", "naš[eho], vaš[eho], jejich", "sv[ého]"],
+        ["česk[ého]", "modern[ího]"],
+        ["měst[a]", "moř[e]", "kuř[ete]", "náměst[í]"] ] }
+    ],
+    "notes": [
+      "Prepositions: do, z/ze, od, u, bez, kolem, vedle, podle, během, místo, kromě, uprostřed.",
+      "Masculine inanimate usually -u (obchodu, cukru), but some take -a: lesa, chleba, sýra, Londýna, týdne.",
+      "Genitive = 'of': auto mého bratra, šálek čaje, litr mléka."
+    ]
+  },
+  "gen-pl": {
+    "case": "gen",
+    "title": "Genitive plural · 2. pád",
+    "columns": ["Demonstr.", "Possessive", "Adjective", "Noun"],
+    "rows": [
+      { "g": "Ma", "label": "Mž", "name": "Masculine animate", "cells": [
+        ["t[ěch]", "t[ěch]to", "t[ěch]hle"],
+        ["m[ých], tv[ých], jeho, jej[ích]", "naš[ich], vaš[ich], jejich", "sv[ých]"],
+        ["česk[ých]", "modern[ích]"],
+        ["student[ů]", "muž[ů]", "koleg[ů]"] ] },
+      { "g": "Mi", "label": "Mn", "name": "Masculine inanimate", "cells": [
+        ["t[ěch]", "t[ěch]to", "t[ěch]hle"],
+        ["m[ých], tv[ých], jeho, jej[ích]", "naš[ich], vaš[ich], jejich", "sv[ých]"],
+        ["česk[ých]", "modern[ích]"],
+        ["sešit[ů]", "pokoj[ů]"] ] },
+      { "g": "F", "label": "F", "name": "Feminine", "cells": [
+        ["t[ěch]", "t[ěch]to", "t[ěch]hle"],
+        ["m[ých], tv[ých], jeho, jej[ích]", "naš[ich], vaš[ich], jejich", "sv[ých]"],
+        ["česk[ých]", "modern[ích]"],
+        ["žen (–)", "sest[e]r (–)", "židl[í]", "ulic (–)", "místnost[í]"] ] },
+      { "g": "N", "label": "N", "name": "Neuter", "cells": [
+        ["t[ěch]", "t[ěch]to", "t[ěch]hle"],
+        ["m[ých], tv[ých], jeho, jej[ích]", "naš[ich], vaš[ich], jejich", "sv[ých]"],
+        ["česk[ých]", "modern[ích]"],
+        ["měst (–)", "ok[e]n (–)", "moř[í]", "kuř[at]", "náměst[í]"] ] }
+    ],
+    "notes": [
+      "(–) = no ending: the -a / -o simply disappears (žen, měst, knih, aut).",
+      "An -e- is added between two final consonants: sestra → sester, matka → matek, okno → oken.",
+      "After 5, 6, 7… and after hodně, málo, mnoho, několik, kolik: pět knih, hodně lidí.",
+      "Irregular: lidí, dětí, přátel, peněz."
+    ]
+  },
+  "dat-sg": {
+    "case": "dat",
+    "title": "Dative singular · 3. pád · komu? čemu?",
+    "columns": ["Demonstr.", "Possessive", "Adjective", "Noun"],
+    "rows": [
+      { "g": "Ma", "label": "Mž", "name": "Masculine animate", "cells": [
+        ["t[omu]", "t[omu]to", "t[omu]hle"],
+        ["m[ému], tv[ému], jeho, jej[ímu]", "naš[emu], vaš[emu], jejich", "sv[ému]"],
+        ["česk[ému]", "modern[ímu]"],
+        ["student[ovi]", "muž[i] / muž[ovi]", "koleg[ovi]"] ] },
+      { "g": "Mi", "label": "Mn", "name": "Masculine inanimate", "cells": [
+        ["t[omu]", "t[omu]to", "t[omu]hle"],
+        ["m[ému], tv[ému], jeho, jej[ímu]", "naš[emu], vaš[emu], jejich", "sv[ému]"],
+        ["česk[ému]", "modern[ímu]"],
+        ["sešit[u]", "pokoj[i]"] ] },
+      { "g": "F", "label": "F", "name": "Feminine", "cells": [
+        ["t[é]", "t[é]to", "t[é]hle"],
+        ["m[é] / moj[í]", "tv[é] / tvoj[í]", "jeho, její", "naš[í], vaš[í], jejich", "sv[é] / svoj[í]"],
+        ["česk[é]", "modern[í]"],
+        ["žen[ě]", "Pra[ze]", "židl[i]", "skřín[i]", "místnost[i]"] ] },
+      { "g": "N", "label": "N", "name": "Neuter", "cells": [
+        ["t[omu]", "t[omu]to", "t[omu]hle"],
+        ["m[ému], tv[ému], jeho, jej[ímu]", "naš[emu], vaš[emu], jejich", "sv[ému]"],
+        ["česk[ému]", "modern[ímu]"],
+        ["měst[u]", "moř[i]", "kuř[eti]", "náměst[í]"] ] }
+    ],
+    "notes": [
+      "Prepositions: k/ke, proti, naproti, kvůli, díky.",
+      "Verbs: dát, poslat, psát, volat, pomáhat, děkovat, rozumět, patřit, líbit se.",
+      "Feminine consonant changes: Praha → Praze, kniha → knize, sestra → sestře, babička → babičce.",
+      "Two masculine words: only the last one takes -ovi: panu Novákovi."
+    ]
+  },
+  "dat-pl": {
+    "case": "dat",
+    "title": "Dative plural · 3. pád",
+    "columns": ["Demonstr.", "Possessive", "Adjective", "Noun"],
+    "rows": [
+      { "g": "Ma", "label": "Mž", "name": "Masculine animate", "cells": [
+        ["t[ěm]", "t[ěm]to", "t[ěm]hle"],
+        ["m[ým], tv[ým], jeho, jej[ím]", "naš[im], vaš[im], jejich", "sv[ým]"],
+        ["česk[ým]", "modern[ím]"],
+        ["student[ům]", "muž[ům]"] ] },
+      { "g": "Mi", "label": "Mn", "name": "Masculine inanimate", "cells": [
+        ["t[ěm]", "t[ěm]to", "t[ěm]hle"],
+        ["m[ým], tv[ým], jeho, jej[ím]", "naš[im], vaš[im], jejich", "sv[ým]"],
+        ["česk[ým]", "modern[ím]"],
+        ["sešit[ům]", "pokoj[ům]"] ] },
+      { "g": "F", "label": "F", "name": "Feminine", "cells": [
+        ["t[ěm]", "t[ěm]to", "t[ěm]hle"],
+        ["m[ým], tv[ým], jeho, jej[ím]", "naš[im], vaš[im], jejich", "sv[ým]"],
+        ["česk[ým]", "modern[ím]"],
+        ["žen[ám]", "židl[ím]", "skřín[ím]", "místnost[em]"] ] },
+      { "g": "N", "label": "N", "name": "Neuter", "cells": [
+        ["t[ěm]", "t[ěm]to", "t[ěm]hle"],
+        ["m[ým], tv[ým], jeho, jej[ím]", "naš[im], vaš[im], jejich", "sv[ým]"],
+        ["česk[ým]", "modern[ím]"],
+        ["měst[ům]", "moř[ím]", "kuř[atům]", "náměst[ím]"] ] }
+    ],
+    "notes": [
+      "Irregular: lidem, dětem, přátelům.",
+      "Every dative plural ends in -m."
+    ]
+  },
+  "acc-sg": {
+    "case": "acc",
+    "title": "Accusative singular · 4. pád · koho? co?",
+    "columns": ["Demonstr.", "Possessive", "Adjective", "Noun"],
+    "rows": [
+      { "g": "Ma", "label": "Mž", "name": "Masculine animate", "cells": [
+        ["t[oho]", "t[oho]to", "t[oho]hle"],
+        ["m[ého], tv[ého], jeho, jej[ího]", "naš[eho], vaš[eho], jejich", "sv[ého]"],
+        ["česk[ého]", "modern[ího]"],
+        ["student[a]", "muž[e]", "koleg[u]"] ] },
+      { "g": "Mi", "label": "Mn", "name": "Masculine inanimate", "cells": [
+        ["ten", "tento", "tenhle"],
+        ["můj, tvůj, jeho, její", "náš, váš, jejich", "svůj"],
+        ["česk[ý]", "modern[í]"],
+        ["sešit", "pokoj"] ] },
+      { "g": "F", "label": "F", "name": "Feminine", "cells": [
+        ["t[u]", "t[u]to", "t[u]hle"],
+        ["m[ou] / moj[i]", "tv[ou] / tvoj[i]", "jeho, její", "naš[i], vaš[i], jejich", "sv[ou] / svoj[i]"],
+        ["česk[ou]", "modern[í]"],
+        ["žen[u]", "židl[i]", "skříň", "místnost"] ] },
+      { "g": "N", "label": "N", "name": "Neuter", "cells": [
+        ["to", "toto", "tohle"],
+        ["m[é] / moj[e]", "tv[é] / tvoj[e]", "jeho, její", "naš[e], vaš[e], jejich", "sv[é] / svoj[e]"],
+        ["česk[é]", "modern[í]"],
+        ["měst[o]", "moř[e]", "náměst[í]"] ] }
+    ],
+    "notes": [
+      "Masculine inanimate and neuter: accusative = nominative.",
+      "Masculine animate: hard stem -a (studenta), soft stem -e (muže, Tomáše, učitele, malíře).",
+      "Soft consonants: ž, š, č, ř, c, j, ď, ť, ň, and nouns in -tel.",
+      "Fleeting e: pes → psa, otec → otce, bratranec → bratrance, Pavel → Pavla, Marek → Marka.",
+      "Masculine nouns in -a take -u: kolega → kolegu, tenista → tenistu, fotbalista → fotbalistu.",
+      "Jiří → Jiřího (declines like moderní). král → krále, kůň → koně.",
+      "Adjective-type nouns: dovolená → dovolenou.",
+      "jeho and jejich never change. svůj = belonging to the subject."
+    ],
+    "examples": [
+      "Vidím Tomáše.",
+      "Jdu pro Tomáše.",
+      "Potřebuji Tomáše.",
+      "Rezervuji pokoj.",
+      "Rezervuji místnost."
+    ]
+  },
+  "acc-pl": {
+    "case": "acc",
+    "title": "Accusative plural · 4. pád",
+    "columns": ["Demonstr.", "Possessive", "Adjective", "Noun"],
+    "rows": [
+      { "g": "Ma", "label": "Mž", "name": "Masculine animate", "cells": [
+        ["t[y]", "t[y]to", "t[y]hle"],
+        ["m[é] / moj[e]", "tv[é] / tvoj[e]", "jeho, její", "naš[e], vaš[e], jejich", "sv[é] / svoj[e]"],
+        ["česk[é]", "modern[í]"],
+        ["student[y]", "muž[e]", "koleg[y]"] ] },
+      { "g": "Mi", "label": "Mn", "name": "Masculine inanimate", "cells": [
+        ["t[y]", "t[y]to", "t[y]hle"],
+        ["m[é] / moj[e]", "tv[é] / tvoj[e]", "jeho, její", "naš[e], vaš[e], jejich", "sv[é] / svoj[e]"],
+        ["česk[é]", "modern[í]"],
+        ["sešit[y]", "pokoj[e]"] ] },
+      { "g": "F", "label": "F", "name": "Feminine", "cells": [
+        ["t[y]", "t[y]to", "t[y]hle"],
+        ["m[é] / moj[e]", "tv[é] / tvoj[e]", "jeho, její", "naš[e], vaš[e], jejich", "sv[é] / svoj[e]"],
+        ["česk[é]", "modern[í]"],
+        ["žen[y]", "židl[e]", "skřín[ě]", "místnost[i]"] ] },
+      { "g": "N", "label": "N", "name": "Neuter", "cells": [
+        ["t[a]", "t[a]to", "t[a]hle"],
+        ["m[á] / moj[e]", "tv[á] / tvoj[e]", "jeho, její", "naš[e], vaš[e], jejich", "sv[á] / svoj[e]"],
+        ["česk[á]", "modern[í]"],
+        ["měst[a]", "moř[e]", "kuř[ata]", "náměst[í]"] ] }
+    ],
+    "notes": [
+      "Masculine animate and inanimate are the SAME in the accusative plural: ty české studenty, ty české sešity.",
+      "Feminine and neuter: accusative plural = nominative plural.",
+      "Irregular: člověk → lidi, dítě → děti, přítel → přátele, pes → psy."
+    ]
+  },
+  "voc-sg": {
+    "case": "voc",
+    "title": "Vocative singular · 5. pád · calling someone",
+    "columns": ["Demonstr.", "Possessive", "Adjective", "Noun"],
+    "rows": [
+      { "g": "Ma", "label": "Mž", "name": "Masculine animate", "cells": [
+        ["—"],
+        ["můj, náš (= 1st case)"],
+        ["mil[ý]", "modern[í]"],
+        ["pan[e]", "Petř[e]", "Mark[u]", "Tomáš[i]", "učitel[i]", "otč[e]", "koleg[o]"] ] },
+      { "g": "Mi", "label": "Mn", "name": "Masculine inanimate", "cells": [
+        ["—"],
+        ["(= 1st case)"],
+        ["mil[ý]"],
+        ["(rare)"] ] },
+      { "g": "F", "label": "F", "name": "Feminine", "cells": [
+        ["—"],
+        ["má / moje, naše (= 1st case)"],
+        ["mil[á]", "modern[í]"],
+        ["žen[o]", "Jan[o]", "Marie", "paní"] ] },
+      { "g": "N", "label": "N", "name": "Neuter", "cells": [
+        ["—"],
+        ["(= 1st case)"],
+        ["mil[é]"],
+        ["měst[o] (= 1st case)"] ] }
+    ],
+    "notes": [
+      "Hard consonant → -e (pane, Martine, doktore); -r after a consonant → -ře (Petře, bratře).",
+      "-k, -g, -h, -ch → -u (Marku, kluku, Zdeňku); syn → synu.",
+      "Soft and -tel → -i (Tomáši, Ondřeji, učiteli, příteli). Jiří → Jiří.",
+      "-ec → -če (otče, chlapče). Masculine -a → -o (kolego, Honzo).",
+      "Feminine -a → -o (Jano, babičko). -e / -ie and paní do not change.",
+      "Adjectives and possessives keep the nominative form: Milý Petře! Milá Jano!"
+    ]
+  },
+  "voc-pl": {
+    "case": "voc",
+    "title": "Vocative plural · 5. pád = nominative plural",
+    "columns": ["Demonstr.", "Possessive", "Adjective", "Noun"],
+    "rows": [
+      { "g": "Ma", "label": "Mž", "name": "Masculine animate", "cells": [
+        ["—"],
+        ["mí / moji, naši"],
+        ["mil[í]", "vážen[í]"],
+        ["přátel[é]", "pán[ové]", "kluc[i]", "student[i]", "koleg[ové]"] ] },
+      { "g": "Mi", "label": "Mn", "name": "Masculine inanimate", "cells": [
+        ["—"],
+        ["(= 1st case)"],
+        ["mil[é]"],
+        ["(rare)"] ] },
+      { "g": "F", "label": "F", "name": "Feminine", "cells": [
+        ["—"],
+        ["mé / moje, naše"],
+        ["mil[é]"],
+        ["dám[y]", "dět[i]"] ] },
+      { "g": "N", "label": "N", "name": "Neuter", "cells": [
+        ["—"],
+        ["má / moje, naše"],
+        ["mil[á]"],
+        ["měst[a]"] ] }
+    ],
+    "notes": [
+      "The vocative plural is always the same as the nominative plural: Milí přátelé! Dámy a pánové! Děti!"
+    ]
+  },
+  "loc-sg": {
+    "case": "loc",
+    "title": "Locative singular · 6. pád · (o) kom? (o) čem?",
+    "columns": ["Demonstr.", "Possessive", "Adjective", "Noun"],
+    "rows": [
+      { "g": "Ma", "label": "Mž", "name": "Masculine animate", "cells": [
+        ["t[om]", "t[om]to", "t[om]hle"],
+        ["m[ém], tv[ém], jeho, jej[ím]", "naš[em], vaš[em], jejich", "sv[ém]"],
+        ["česk[ém]", "modern[ím]"],
+        ["student[ovi]", "muž[i] / muž[ovi]", "koleg[ovi]"] ] },
+      { "g": "Mi", "label": "Mn", "name": "Masculine inanimate", "cells": [
+        ["t[om]", "t[om]to", "t[om]hle"],
+        ["m[ém], tv[ém], jeho, jej[ím]", "naš[em], vaš[em], jejich", "sv[ém]"],
+        ["česk[ém]", "modern[ím]"],
+        ["dom[ě]", "stol[e]", "park[u]", "pokoj[i]"] ] },
+      { "g": "F", "label": "F", "name": "Feminine", "cells": [
+        ["t[é]", "t[é]to", "t[é]hle"],
+        ["m[é] / moj[í]", "tv[é] / tvoj[í]", "jeho, její", "naš[í], vaš[í], jejich", "sv[é] / svoj[í]"],
+        ["česk[é]", "modern[í]"],
+        ["žen[ě]", "Pra[ze]", "židl[i]", "skřín[i]", "místnost[i]"] ] },
+      { "g": "N", "label": "N", "name": "Neuter", "cells": [
+        ["t[om]", "t[om]to", "t[om]hle"],
+        ["m[ém], tv[ém], jeho, jej[ím]", "naš[em], vaš[em], jejich", "sv[ém]"],
+        ["česk[ém]", "modern[ím]"],
+        ["měst[ě]", "Česk[u]", "moř[i]", "kuř[eti]", "náměst[í]"] ] }
+    ],
+    "notes": [
+      "Always with a preposition: v/ve, na, o, po, při.",
+      "Masculine inanimate: -ě/-e (v domě, na stole) or -u (v parku, ve vlaku, v hotelu, o filmu). Soft: -i (v pokoji).",
+      "Feminine: the same as the dative (v Praze, v knize, na poště, ve škole).",
+      "Countries in -sko/-cko: v Česku, na Slovensku. Also v metru."
+    ]
+  },
+  "loc-pl": {
+    "case": "loc",
+    "title": "Locative plural · 6. pád",
+    "columns": ["Demonstr.", "Possessive", "Adjective", "Noun"],
+    "rows": [
+      { "g": "Ma", "label": "Mž", "name": "Masculine animate", "cells": [
+        ["t[ěch]", "t[ěch]to", "t[ěch]hle"],
+        ["m[ých], tv[ých], jeho, jej[ích]", "naš[ich], vaš[ich], jejich", "sv[ých]"],
+        ["česk[ých]", "modern[ích]"],
+        ["student[ech]", "muž[ích]", "kluc[ích]"] ] },
+      { "g": "Mi", "label": "Mn", "name": "Masculine inanimate", "cells": [
+        ["t[ěch]", "t[ěch]to", "t[ěch]hle"],
+        ["m[ých], tv[ých], jeho, jej[ích]", "naš[ich], vaš[ich], jejich", "sv[ých]"],
+        ["česk[ých]", "modern[ích]"],
+        ["dom[ech]", "pokoj[ích]"] ] },
+      { "g": "F", "label": "F", "name": "Feminine", "cells": [
+        ["t[ěch]", "t[ěch]to", "t[ěch]hle"],
+        ["m[ých], tv[ých], jeho, jej[ích]", "naš[ich], vaš[ich], jejich", "sv[ých]"],
+        ["česk[ých]", "modern[ích]"],
+        ["žen[ách]", "židl[ích]", "skřín[ích]", "místnost[ech]"] ] },
+      { "g": "N", "label": "N", "name": "Neuter", "cells": [
+        ["t[ěch]", "t[ěch]to", "t[ěch]hle"],
+        ["m[ých], tv[ých], jeho, jej[ích]", "naš[ich], vaš[ich], jejich", "sv[ých]"],
+        ["česk[ých]", "modern[ích]"],
+        ["měst[ech]", "moř[ích]", "kuř[atech]", "náměst[ích]"] ] }
+    ],
+    "notes": [
+      "Before -ích: k → c, h → z, ch → š (kluk → o klucích, park → v parcích).",
+      "Irregular: o lidech, o dětech, o přátelích.",
+      "Pronouns and adjectives: the same as the genitive plural."
+    ]
+  },
+  "ins-sg": {
+    "case": "ins",
+    "title": "Instrumental singular · 7. pád · (s) kým? (s) čím?",
+    "columns": ["Demonstr.", "Possessive", "Adjective", "Noun"],
+    "rows": [
+      { "g": "Ma", "label": "Mž", "name": "Masculine animate", "cells": [
+        ["t[ím]", "t[ím]to", "t[ím]hle"],
+        ["m[ým], tv[ým], jeho, jej[ím]", "naš[ím], vaš[ím], jejich", "sv[ým]"],
+        ["česk[ým]", "modern[ím]"],
+        ["student[em]", "muž[em]", "koleg[ou]"] ] },
+      { "g": "Mi", "label": "Mn", "name": "Masculine inanimate", "cells": [
+        ["t[ím]", "t[ím]to", "t[ím]hle"],
+        ["m[ým], tv[ým], jeho, jej[ím]", "naš[ím], vaš[ím], jejich", "sv[ým]"],
+        ["česk[ým]", "modern[ím]"],
+        ["sešit[em]", "pokoj[em]"] ] },
+      { "g": "F", "label": "F", "name": "Feminine", "cells": [
+        ["t[ou]", "t[ou]to", "t[ou]hle"],
+        ["m[ou] / moj[í]", "tv[ou] / tvoj[í]", "jeho, její", "naš[í], vaš[í], jejich", "sv[ou] / svoj[í]"],
+        ["česk[ou]", "modern[í]"],
+        ["žen[ou]", "židl[í]", "skřín[í]", "místnost[í]"] ] },
+      { "g": "N", "label": "N", "name": "Neuter", "cells": [
+        ["t[ím]", "t[ím]to", "t[ím]hle"],
+        ["m[ým], tv[ým], jeho, jej[ím]", "naš[ím], vaš[ím], jejich", "sv[ým]"],
+        ["česk[ým]", "modern[ím]"],
+        ["měst[em]", "moř[em]", "kuř[etem]", "náměst[ím]"] ] }
+    ],
+    "notes": [
+      "Prepositions: s/se (with); za, pod, nad, před, mezi when something IS somewhere (kde?).",
+      "Without a preposition: means / tool: jedu vlakem, píšu tužkou, platím kartou.",
+      "Masculine: always -em (kolega → kolegou). Feminine: -a → -ou, everything else → -í."
+    ]
+  },
+  "ins-pl": {
+    "case": "ins",
+    "title": "Instrumental plural · 7. pád",
+    "columns": ["Demonstr.", "Possessive", "Adjective", "Noun"],
+    "rows": [
+      { "g": "Ma", "label": "Mž", "name": "Masculine animate", "cells": [
+        ["t[ěmi]", "t[ěmi]to", "t[ěmi]hle"],
+        ["m[ými], tv[ými], jeho, jej[ími]", "naš[imi], vaš[imi], jejich", "sv[ými]"],
+        ["česk[ými]", "modern[ími]"],
+        ["student[y]", "muž[i]", "koleg[y]"] ] },
+      { "g": "Mi", "label": "Mn", "name": "Masculine inanimate", "cells": [
+        ["t[ěmi]", "t[ěmi]to", "t[ěmi]hle"],
+        ["m[ými], tv[ými], jeho, jej[ími]", "naš[imi], vaš[imi], jejich", "sv[ými]"],
+        ["česk[ými]", "modern[ími]"],
+        ["sešit[y]", "pokoj[i]"] ] },
+      { "g": "F", "label": "F", "name": "Feminine", "cells": [
+        ["t[ěmi]", "t[ěmi]to", "t[ěmi]hle"],
+        ["m[ými], tv[ými], jeho, jej[ími]", "naš[imi], vaš[imi], jejich", "sv[ými]"],
+        ["česk[ými]", "modern[ími]"],
+        ["žen[ami]", "židl[emi]", "skřín[ěmi]", "místnost[mi]"] ] },
+      { "g": "N", "label": "N", "name": "Neuter", "cells": [
+        ["t[ěmi]", "t[ěmi]to", "t[ěmi]hle"],
+        ["m[ými], tv[ými], jeho, jej[ími]", "naš[imi], vaš[imi], jejich", "sv[ými]"],
+        ["česk[ými]", "modern[ími]"],
+        ["měst[y]", "moř[i]", "kuř[aty]", "náměst[ími]"] ] }
+    ],
+    "notes": [
+      "Irregular: s lidmi, s dětmi, s přáteli.",
+      "Masculine plural instrumental = accusative plural in form: s kamarády, s muži."
+    ]
+  }
+}

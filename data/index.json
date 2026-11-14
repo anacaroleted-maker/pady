@@ -1,0 +1,11 @@
+{
+  "exercises": [
+    "exercises/nom.json",
+    "exercises/gen.json",
+    "exercises/dat.json",
+    "exercises/acc.json",
+    "exercises/voc.json",
+    "exercises/loc.json",
+    "exercises/ins.json"
+  ]
+}

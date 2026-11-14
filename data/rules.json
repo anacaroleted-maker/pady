@@ -1,0 +1,471 @@
+{
+  "acc-ma-hard": {
+    "case": "acc",
+    "title": "Masculine animate, hard stem → -a",
+    "explain": "Masculine ANIMATE nouns (people and animals) whose stem ends in a hard consonant (d, t, n, r, k, h, ch, b, p, v, m, s, z, f…) add -a in the accusative: student → studenta, Petr → Petra. Words ending in -l must be learned one by one: Pavel → Pavla, but král → krále, učitel → učitele.",
+    "tip": "Animate + hard = -a. Ask: is it alive? Then the accusative looks like the genitive."
+  },
+  "acc-ma-soft": {
+    "case": "acc",
+    "title": "Masculine animate, soft stem → -e",
+    "explain": "Masculine ANIMATE nouns whose stem ends in a soft consonant (ž, š, č, ř, c, j, ď, ť, ň) or in -tel add -e: muž → muže, Tomáš → Tomáše, učitel → učitele, lékař → lékaře.",
+    "tip": "Soft letters (with a háček, plus c and j) and -tel → -e."
+  },
+  "acc-ma-fleeting": {
+    "case": "acc",
+    "title": "Fleeting -e- (pes → psa, otec → otce)",
+    "explain": "Some masculine nouns lose the -e- of their last syllable when an ending is added: pes → psa, otec → otce, Pavel → Pavla, Marek → Marka, dědeček → dědečka, Němec → Němce, bratranec → bratrance. The ending itself still follows the hard (-a) / soft (-e) rule.",
+    "tip": "Nouns in -ec, -ek and a few short words (pes, Pavel, Karel) drop the -e-. Learn them as pairs: pes – psa."
+  },
+  "acc-ma-a": {
+    "case": "acc",
+    "title": "Masculine nouns ending in -a → -u (kolega)",
+    "explain": "Masculine nouns that end in -a in the nominative (kolega, tenista, fotbalista, turista, táta, děda, Honza) decline like feminine žena in the singular: the accusative ends in -u. But adjectives and pronouns stay MASCULINE: toho dobrého kolegu.",
+    "tip": "Ending -a looks feminine → noun takes -u, but the words around it stay masculine (-ého)."
+  },
+  "acc-ma-i": {
+    "case": "acc",
+    "title": "Names in -í decline like adjectives (Jiří → Jiřího)",
+    "explain": "Jiří (and similar names in -í) declines like a soft adjective (moderní → moderního). So the accusative is Jiřího.",
+    "tip": "Jiří behaves like moderní: Jiří → Jiřího, moderní → moderního."
+  },
+  "acc-mi": {
+    "case": "acc",
+    "title": "Masculine inanimate = nominative",
+    "explain": "Masculine INANIMATE nouns (things) do not change in the accusative: the form is the same as the nominative. Rezervuji pokoj. Mám sešit. Kupuji lístek.",
+    "tip": "Not alive → no change (ten pokoj → ten pokoj)."
+  },
+  "acc-f-a": {
+    "case": "acc",
+    "title": "Feminine -a → -u",
+    "explain": "Feminine nouns ending in -a change -a to -u: žena → ženu, káva → kávu, kniha → knihu.",
+    "tip": "-a → -u is the only feminine ending that really changes in a regular way."
+  },
+  "acc-f-e": {
+    "case": "acc",
+    "title": "Feminine -e / -ie → -i",
+    "explain": "Feminine nouns ending in -e (soft type) change -e to -i: židle → židli, ulice → ulici, práce → práci, Marie → Marii.",
+    "tip": "Soft feminine: -e → -i."
+  },
+  "acc-f-cons": {
+    "case": "acc",
+    "title": "Feminine ending in a consonant = no change",
+    "explain": "Feminine nouns that end in a consonant (skříň, píseň, postel, kancelář, místnost, radost, věc) do not change in the accusative.",
+    "tip": "Feminine words in -ost are always unchanged: místnost → místnost."
+  },
+  "acc-f-adj": {
+    "case": "acc",
+    "title": "Adjective-type nouns (dovolená → dovolenou)",
+    "explain": "Some nouns are really adjectives (dovolená, vedoucí, hajný). They decline like adjectives: dovolená → dovolenou (like česká → českou).",
+    "tip": "If a noun looks like an adjective (-á, -ý, -í), decline it like an adjective."
+  },
+  "acc-n": {
+    "case": "acc",
+    "title": "Neuter = nominative",
+    "explain": "Neuter nouns never change in the accusative: město, auto, moře, náměstí stay the same.",
+    "tip": "Neuter accusative = neuter nominative. Always."
+  },
+  "acc-adj-hard": {
+    "case": "acc",
+    "title": "Hard adjectives: -ého / -ý / -ou / -é",
+    "explain": "Hard adjectives (nominative in -ý, like český, dobrý, nový) in the accusative singular: masculine animate -ého (českého studenta), masculine inanimate -ý (český sešit), feminine -ou (českou knihu), neuter -é (české město).",
+    "tip": "Mž -ého · Mn -ý · F -ou · N -é."
+  },
+  "acc-adj-soft": {
+    "case": "acc",
+    "title": "Soft adjectives: -ího / -í / -í / -í",
+    "explain": "Soft adjectives (nominative in -í, like moderní, cizí, starší, mladší, jarní) keep -í everywhere, except masculine animate which takes -ího: moderního studenta, but moderní telefon / moderní ženu / moderní auto.",
+    "tip": "Soft adjective: only masculine ANIMATE changes (-ího). Everything else stays -í."
+  },
+  "acc-dem": {
+    "case": "acc",
+    "title": "Demonstratives: toho / ten / tu / to",
+    "explain": "ten (this/that) in the accusative singular: masculine animate toho, masculine inanimate ten, feminine tu, neuter to. The same pattern with -to and -hle: tohoto/tohohle, tento/tenhle, tuto/tuhle, toto/tohle.",
+    "tip": "Mž toho · Mn ten · F tu · N to. Add -to or -hle without changing the core."
+  },
+  "acc-poss": {
+    "case": "acc",
+    "title": "Possessives můj, tvůj, náš, váš (and the fixed jeho, jejich)",
+    "explain": "můj/tvůj: Mž mého/tvého, Mn můj/tvůj, F mou/moji, tvou/tvoji, N mé/moje, tvé/tvoje. náš/váš: Mž našeho/vašeho, Mn náš/váš, F naši/vaši, N naše/vaše. jeho (his) and jejich (their) NEVER change. její (her) declines like a soft adjective: Mž jejího, otherwise její.",
+    "tip": "jeho and jejich are frozen. její behaves like moderní."
+  },
+  "acc-svuj": {
+    "case": "acc",
+    "title": "svůj = 'my/your/his/her own' (belongs to the subject)",
+    "explain": "svůj refers back to the SUBJECT of the sentence. In the 3rd person it is required when the thing belongs to the subject: Petr hledá svůj klíč (his own key). Petr hledá jeho klíč means somebody else's key. svůj declines like můj: Mž svého, Mn svůj, F svou/svoji, N své/svoje.",
+    "tip": "Does it belong to the subject of the sentence? Then use svůj."
+  },
+  "acc-prep": {
+    "case": "acc",
+    "title": "Prepositions that take the accusative",
+    "explain": "pro (for), přes (across, over, through), skrz (through), za (for / in exchange for: děkuji za…), na (to / for a time: jdu na poštu, na týden), v (on a day: v pondělí; to believe in: věřit v), o (about/for after verbs like starat se o, prosit o, zajímat se o).",
+    "tip": "pro and přes ALWAYS take the accusative."
+  },
+  "acc-prep-2": {
+    "case": "acc",
+    "title": "Two-case prepositions: movement → accusative, location → locative/instrumental",
+    "explain": "na, v, o, po take the accusative or the LOCATIVE; za, pod, před, nad, mezi take the accusative or the INSTRUMENTAL. When there is MOVEMENT TO a place (kam? = where to?), use the accusative: Jdu na poštu. Dám knihu na stůl. Kočka vlezla pod stůl. When something IS somewhere (kde? = where?), use the other case: Jsem na poště. Kniha je na stole. Kočka je pod stolem.",
+    "tip": "Kam? (where to?) → accusative. Kde? (where?) → locative / instrumental."
+  },
+  "loc-place": {
+    "case": "loc",
+    "title": "Location (kde?) after na / v → locative",
+    "explain": "When something IS somewhere (no movement), na and v take the locative (6th case): Jsem na poště. Kniha je na stole. Bydlím v Praze. The locative will be practised in its own section later.",
+    "tip": "Kde? → locative. Kam? → accusative."
+  },
+  "ins-place": {
+    "case": "ins",
+    "title": "Location (kde?) after pod / nad / před / za / mezi → instrumental",
+    "explain": "When something IS somewhere (no movement), pod, nad, před, za and mezi take the instrumental (7th case): Kočka je pod stolem. The instrumental will be practised in its own section later.",
+    "tip": "Kde? → instrumental (pod stolem). Kam? → accusative (pod stůl)."
+  },
+
+  "acc-pl-m": {
+    "case": "acc",
+    "title": "Accusative plural, masculine: hard -y, soft -e",
+    "explain": "In the accusative plural, BOTH masculine animate and inanimate nouns take -y after a hard stem (studenty, sešity, psy, lístky) and -e after a soft stem (muže, učitele, pokoje, klíče, koně). Animacy does not matter here.",
+    "tip": "Plural accusative masculine: hard -y, soft -e. Animate or not, the same."
+  },
+  "acc-pl-f": {
+    "case": "acc",
+    "title": "Accusative plural, feminine = nominative plural",
+    "explain": "Feminine nouns have the same form in the accusative plural as in the nominative plural: ženy, knihy, kočky, židle, ulice, skříně, místnosti.",
+    "tip": "Feminine plural: accusative = nominative."
+  },
+  "acc-pl-n": {
+    "case": "acc",
+    "title": "Accusative plural, neuter = nominative plural",
+    "explain": "Neuter nouns: accusative plural = nominative plural: města, auta, okna, moře, náměstí, kuřata.",
+    "tip": "Neuter is always the same in the nominative and accusative – singular and plural."
+  },
+  "acc-pl-adj": {
+    "case": "acc",
+    "title": "Accusative plural of adjectives and pronouns",
+    "explain": "Masculine (animate and inanimate) and feminine: ty, mé/moje, naše, dobré, moderní. Neuter: ta, má/moje, naše, dobrá, moderní. jeho, její, jejich do not change. Soft adjectives keep -í everywhere.",
+    "tip": "Plural accusative: -é for masculine + feminine, -á for neuter (ty dobré studenty, ta dobrá auta)."
+  },
+  "acc-pl-irr": {
+    "case": "acc",
+    "title": "Irregular plurals: lidi, děti, přátele",
+    "explain": "člověk (person) → plural lidé, accusative lidi. dítě (child) → děti (feminine plural, so: ty děti, naše děti). přítel (friend) → přátelé, accusative přátele. kuře (chicken) → kuřata.",
+    "tip": "Learn as sets: člověk – lidé – lidi, dítě – děti, přítel – přátelé – přátele."
+  },
+
+  "nom-sg-agree": {
+    "case": "nom",
+    "title": "Nominative singular: agreement with the gender",
+    "explain": "The nominative is the dictionary form and the subject of the sentence (Kdo? Co?), also after 'to je'. Pronouns and adjectives agree with the noun's gender: masculine ten / můj / náš / dobrý / moderní, feminine ta / má (moje) / naše / dobrá / moderní, neuter to / mé (moje) / naše / dobré / moderní.",
+    "tip": "Masculine -ý, feminine -á, neuter -é. Soft adjectives (-í) are the same for all genders."
+  },
+  "nom-gender": {
+    "case": "nom",
+    "title": "Recognising the gender from the ending",
+    "explain": "Usually: a consonant at the end = masculine (čaj, počítač, kolega is a man so also masculine), -a = feminine (žena, káva), -e/-ě = feminine (židle, restaurace) or neuter (moře, kuře), -o = neuter (město), -í = neuter (náměstí, nádraží), -um = neuter (muzeum). Feminine nouns ending in a consonant must be learned: místnost (all -ost), kancelář, píseň, postel, skříň.",
+    "tip": "-ost is always feminine. -o and -í are almost always neuter."
+  },
+  "nom-pl-ma": {
+    "case": "nom",
+    "title": "Nominative plural, masculine animate: -i with consonant changes",
+    "explain": "Masculine animate nouns usually take -i in the nominative plural, and the last consonant softens: k → c (kluk → kluci), h → z, ch → š (Čech → Češi), r → ř (doktor → doktoři, bratr → bratři). d, t, n are pronounced soft but written the same (studenti, kamarádi). Soft stems also -i (muži). pes → psi.",
+    "tip": "kluk → kluci, Čech → Češi, doktor → doktoři. Sound changes happen before -i."
+  },
+  "nom-pl-ma-ove": {
+    "case": "nom",
+    "title": "Nominative plural, masculine animate: -ové and -é",
+    "explain": "Some masculine animate nouns take -ové: pán → pánové, syn → synové, kolega → kolegové (all masculine nouns in -a). Nouns in -tel and -an take -é: učitel → učitelé, Angličan → Angličané.",
+    "tip": "-tel → -telé, -a (kolega) → -ové, pán/syn → pánové/synové."
+  },
+  "nom-pl-mi-f": {
+    "case": "nom",
+    "title": "Nominative plural, masculine inanimate and feminine: -y / -e / -i",
+    "explain": "Hard stems take -y (sešity, ženy, knihy), soft stems take -e/-ě (pokoje, klíče, židle, skříně), and feminine nouns in -ost take -i (místnosti). Adjectives end in -é (nové sešity, nové knihy) and the demonstrative is ty.",
+    "tip": "Masculine inanimate and feminine plurals look alike: ty nové sešity, ty nové knihy."
+  },
+  "nom-pl-n": {
+    "case": "nom",
+    "title": "Nominative plural, neuter: -a / -e / -í / -ata",
+    "explain": "Neuter -o → -a (město → města, auto → auta), -e stays -e (moře), -í stays -í (náměstí), kuře → kuřata. Adjectives end in -á (velká města), demonstrative ta.",
+    "tip": "Neuter plural: ta velká města (-a everywhere)."
+  },
+  "nom-pl-adj": {
+    "case": "nom",
+    "title": "Nominative plural of adjectives and pronouns",
+    "explain": "Masculine animate: ti, mí/moji, tví/tvoji, naši, vaši, and hard adjectives in -í with consonant changes (dobrý → dobří, český → čeští, velký → velcí, chytrý → chytří, mladý → mladí). Masculine inanimate + feminine: ty, mé/moje, naše, dobré. Neuter: ta, má/moje, naše, dobrá. Soft adjectives: -í for all.",
+    "tip": "Animate men get -í and softening: ti čeští studenti, ti velcí kluci."
+  },
+  "nom-pl-irr": {
+    "case": "nom",
+    "title": "Irregular plurals: lidé, děti, přátelé",
+    "explain": "člověk → lidé (people), dítě → děti (children; agrees as feminine plural: ty děti, naše děti), přítel → přátelé, kuře → kuřata. In everyday speech you will also hear 'lidi' as the nominative, but the standard form is lidé.",
+    "tip": "člověk – lidé, dítě – děti, přítel – přátelé."
+  },
+
+  "gen-prep": {
+    "case": "gen",
+    "title": "Prepositions with the genitive",
+    "explain": "The most common prepositions take the genitive: do (to, into), z/ze (from, out of), od (from someone, since), u (at, by, at someone's home), bez (without), kolem (around, past), vedle (next to), podle (according to), během (during), místo (instead of), kromě (except), uprostřed (in the middle of).",
+    "tip": "Going somewhere 'do', coming from 'z', at someone's place 'u' – all genitive."
+  },
+  "gen-use": {
+    "case": "gen",
+    "title": "Genitive = 'of' (possession, amounts)",
+    "explain": "Without a preposition the genitive means 'of': auto mého bratra (my brother's car), šálek čaje (a cup of tea), litr mléka, kousek chleba. After numbers 5 and more and after amounts (hodně, málo, mnoho, několik, kolik) the noun is in the genitive PLURAL: pět knih, hodně lidí, kolik dětí.",
+    "tip": "1 kniha, 2–4 knihy, 5+ knih. 'hodně, kolik, několik' + genitive plural."
+  },
+  "gen-sg-m": {
+    "case": "gen",
+    "title": "Genitive singular, masculine: -a / -u / -e",
+    "explain": "Masculine animate: hard -a (studenta, Petra), soft -e (muže, Tomáše, učitele). Masculine inanimate: hard usually -u (obchodu, cukru, deštníku, domu), soft -e (pokoje, čaje). Masculine nouns in -a: -y (kolegy).",
+    "tip": "Animate -a, inanimate -u, soft -e."
+  },
+  "gen-sg-mi-a": {
+    "case": "gen",
+    "title": "Inanimate nouns with -a in the genitive (lesa, chleba…)",
+    "explain": "A group of masculine inanimate nouns takes -a instead of -u: les → lesa, chléb → chleba, sýr → sýra, Londýn → Londýna, Berlín → Berlína, týden → týdne, kostel → kostela. Most foreign city names in a consonant do this.",
+    "tip": "do lesa, kousek chleba, do Londýna – learn these as phrases."
+  },
+  "gen-sg-f": {
+    "case": "gen",
+    "title": "Genitive singular, feminine: -y / -e / -i",
+    "explain": "Feminine -a → -y (žena → ženy, Praha → Prahy, škola → školy). Soft -e stays -e (židle, restaurace). Feminine soft consonant → -e/-ě (kancelář → kanceláře, skříň → skříně). -ost → -i (místnost → místnosti), also pomoc → pomoci, noc → noci.",
+    "tip": "do Prahy, do školy, do restaurace, do kanceláře."
+  },
+  "gen-sg-n": {
+    "case": "gen",
+    "title": "Genitive singular, neuter: -a / -e / -í / -ete",
+    "explain": "Neuter -o → -a (město → města, Brno → Brna, kino → kina). -e stays -e (moře). -í stays -í (náměstí, nádraží, pondělí). kuře → kuřete, dítě → dítěte.",
+    "tip": "z Brna, do kina, u moře, od pondělí."
+  },
+  "gen-sg-adj": {
+    "case": "gen",
+    "title": "Genitive singular of adjectives and pronouns",
+    "explain": "Masculine + neuter: toho, mého/tvého/svého, našeho/vašeho, jejího, dobrého, moderního. Feminine: té, mé/tvé/své (also mojí/tvojí/svojí), naší/vaší, její, dobré, moderní. jeho, jejich never change.",
+    "tip": "Masculine & neuter -ého, feminine -é (do toho nového obchodu / do té nové kavárny)."
+  },
+  "gen-pl-m": {
+    "case": "gen",
+    "title": "Genitive plural, masculine: -ů",
+    "explain": "Masculine nouns (animate and inanimate) take -ů in the genitive plural: studentů, mužů, lístků, pokojů. Adjectives -ých / -ích, pronouns těch, mých, našich, jejich.",
+    "tip": "Masculine plural genitive: always -ů (pět lístků)."
+  },
+  "gen-pl-fn": {
+    "case": "gen",
+    "title": "Genitive plural, feminine and neuter: no ending, or -í",
+    "explain": "Hard feminine (-a) and neuter (-o) nouns simply drop the ending: žena → žen, kniha → knih, koruna → korun, auto → aut, město → měst. If that leaves two consonants at the end, an -e- is inserted: sestra → sester, matka → matek, okno → oken. Soft nouns take -í: židle → židlí, moře → moří, místnost → místností (but -ice → -ic: ulice → ulic). kuře → kuřat.",
+    "tip": "pět žen, pět aut, pět sester, pět oken – the ending simply disappears."
+  },
+  "gen-pl-irr": {
+    "case": "gen",
+    "title": "Irregular genitive plurals: lidí, dětí, přátel, peněz",
+    "explain": "člověk → (lidé) → lidí, dítě → (děti) → dětí, přítel → (přátelé) → přátel, peníze (money, plural only) → peněz, rodiče → rodičů.",
+    "tip": "hodně lidí, kolik dětí, bez peněz."
+  },
+
+  "dat-prep": {
+    "case": "dat",
+    "title": "Prepositions with the dative",
+    "explain": "k/ke (to, towards – especially to a PERSON: k doktorovi, k babičce), proti (against), naproti (opposite), kvůli (because of), díky (thanks to). 'ke' is used before k, g and some groups of consonants: ke kamarádce, ke stolu, ke škole.",
+    "tip": "Going to a person = k + dative (k doktorovi). Going into a place = do + genitive (do školy)."
+  },
+  "dat-verb": {
+    "case": "dat",
+    "title": "Verbs with the dative ('to whom?')",
+    "explain": "The dative answers 'komu? čemu?' (to whom?): dát / dávat (give), poslat (send), psát (write to), volat / telefonovat (call), pomáhat (help), děkovat (thank), rozumět (understand), patřit (belong), líbit se (please: Líbí se mi to).",
+    "tip": "Volám mámě. Pomáhám sestře. Rozumím učiteli."
+  },
+  "dat-sg-m": {
+    "case": "dat",
+    "title": "Dative singular, masculine: -ovi / -i / -u",
+    "explain": "Masculine animate: -ovi (studentovi, Petrovi, Tomášovi, kolegovi). Soft animate nouns can also take -i (učiteli, otci, muži). With two masculine words, only the LAST takes -ovi: panu Novákovi. Masculine inanimate: hard -u (stolu, parku), soft -i (pokoji). Jiří → Jiřímu.",
+    "tip": "People → -ovi. Things → -u (hard) / -i (soft)."
+  },
+  "dat-sg-f": {
+    "case": "dat",
+    "title": "Dative singular, feminine: -ě/-e (with consonant changes) / -i",
+    "explain": "Feminine -a → -ě/-e, and the consonant before it changes: k → c (babička → babičce), h → z (kniha → knize, Praha → Praze), r → ř (sestra → sestře), ch → š. d, t, n, m, b, p, v + ě (máma → mámě, Jana → Janě). Soft -e → -i (práce → práci, Marie → Marii). Consonant-ending → -i (nemoc → nemoci, kancelář → kanceláři).",
+    "tip": "Same form as the locative: k Praze / v Praze, ke knize / v knize."
+  },
+  "dat-sg-n": {
+    "case": "dat",
+    "title": "Dative singular, neuter: -u / -i / -í",
+    "explain": "Neuter -o → -u (město → městu, okno → oknu). -e → -i (moře → moři). -í stays (náměstí). dítě → dítěti, kuře → kuřeti.",
+    "tip": "k městu, k moři, k náměstí."
+  },
+  "dat-adj": {
+    "case": "dat",
+    "title": "Dative singular of adjectives and pronouns",
+    "explain": "Masculine + neuter: tomu, mému/tvému/svému, našemu/vašemu, jejímu, dobrému, modernímu. Feminine: té, mé/tvé/své (also mojí/tvojí/svojí), naší/vaší, její, dobré, moderní.",
+    "tip": "Masculine & neuter -ému, feminine -é: tomu novému studentovi, té nové studentce."
+  },
+  "dat-pl": {
+    "case": "dat",
+    "title": "Dative plural: -ům / -ám / -ím / -em",
+    "explain": "Masculine and hard neuter: -ům (studentům, kamarádům, kolegům). Hard feminine: -ám (ženám, otázkám). Soft feminine and neuter: -ím (židlím, mořím, náměstím). -ost → -em (zkušenostem). Irregular: lidem, dětem, přátelům, kuřatům.",
+    "tip": "The dative plural always ends in -m."
+  },
+  "dat-pl-adj": {
+    "case": "dat",
+    "title": "Dative plural of adjectives and pronouns",
+    "explain": "All genders: těm, mým/tvým/svým, našim/vašim, jejím, dobrým, moderním. jeho, jejich do not change.",
+    "tip": "těm dobrým lidem – everything ends in -m."
+  },
+
+  "voc-use": {
+    "case": "voc",
+    "title": "The vocative = calling or addressing someone",
+    "explain": "We use the vocative (5th case) when we speak TO someone: Ahoj, Petře! Dobrý den, pane doktore! It has no prepositions. Both 'pan' and the title or name change: pane profesore, paní učitelko.",
+    "tip": "Talking TO Petr: Petře! Talking ABOUT Petr: Petr."
+  },
+  "voc-m-hard": {
+    "case": "voc",
+    "title": "Masculine hard stems → -e (pane, Martine, doktore)",
+    "explain": "Most masculine nouns with a hard stem add -e: pan → pane, Martin → Martine, Jan → Jane, kamarád → kamaráde, doktor → doktore, profesor → profesore, Michal → Michale. Fleeting e disappears: Pavel → Pavle, Karel → Karle.",
+    "tip": "Hard consonant → -e. pane, Martine, Pavle."
+  },
+  "voc-m-r": {
+    "case": "voc",
+    "title": "-r after a consonant → -ře (Petře, bratře)",
+    "explain": "When -r comes after another consonant, the vocative is -ře: Petr → Petře, bratr → bratře, Alexandr → Alexandře. After a vowel it is a normal -e: doktor → doktore, profesor → profesore.",
+    "tip": "Petr → Petře, but doktor → doktore."
+  },
+  "voc-m-velar": {
+    "case": "voc",
+    "title": "-k, -g, -h, -ch → -u (Marku, kluku)",
+    "explain": "Masculine nouns ending in k, g, h, ch take -u: Marek → Marku, kluk → kluku, Zdeněk → Zdeňku, dědeček → dědečku. syn → synu is an exception to learn. (But pan → pane.)",
+    "tip": "-k → -ku: Marku, Zdeňku, dědečku."
+  },
+  "voc-m-soft": {
+    "case": "voc",
+    "title": "Masculine soft stems and -tel → -i (Tomáši, učiteli)",
+    "explain": "Soft-stem masculine nouns take -i: Tomáš → Tomáši, Lukáš → Lukáši, Ondřej → Ondřeji, muž → muži, učitel → učiteli, přítel → příteli. Names in -í do not change: Jiří → Jiří.",
+    "tip": "Soft → -i: Tomáši, Ondřeji, příteli."
+  },
+  "voc-m-ec": {
+    "case": "voc",
+    "title": "-ec → -če (otče, chlapče)",
+    "explain": "Nouns in -ec lose the e and c becomes č + e: otec → otče, chlapec → chlapče. (In everyday speech you call your father 'tati'.)",
+    "tip": "-ec → -če."
+  },
+  "voc-m-a": {
+    "case": "voc",
+    "title": "Masculine nouns in -a → -o (kolego, Honzo)",
+    "explain": "Masculine nouns ending in -a behave like feminine ones: kolega → kolego, Honza → Honzo, táta → táto (colloquially tati).",
+    "tip": "-a → -o, for men too."
+  },
+  "voc-f": {
+    "case": "voc",
+    "title": "Feminine vocative: -a → -o, others unchanged",
+    "explain": "Feminine -a → -o: Jana → Jano, Eva → Evo, babička → babičko, učitelka → učitelko. Nouns in -e/-ie stay the same: Marie, Lucie. paní stays paní. Surnames that are adjectives stay the same: paní Nováková.",
+    "tip": "Jano! Evo! But Marie! and paní Nováková!"
+  },
+  "voc-adj": {
+    "case": "voc",
+    "title": "Adjectives and possessives in the vocative = nominative",
+    "explain": "Adjectives and pronouns do not have their own vocative form: they stay in the nominative while the noun changes: Milý Petře! Milá Jano! Můj milý příteli! Milí přátelé!",
+    "tip": "Only the noun changes: milý Petře."
+  },
+  "voc-pl": {
+    "case": "voc",
+    "title": "Vocative plural = nominative plural",
+    "explain": "In the plural the vocative is always the same as the nominative: Milí přátelé! Dámy a pánové! Děti, pojďte sem! Ahoj, kluci! Vážení kolegové!",
+    "tip": "Plural: just use the nominative plural."
+  },
+
+  "loc-prep": {
+    "case": "loc",
+    "title": "The locative always has a preposition: v, na, o, po, při",
+    "explain": "The locative (6th case) is never used alone. It comes after v/ve (in), na (on, at), o (about), po (after; around), při (during, by). v and na + locative = WHERE something is (kde?).",
+    "tip": "Bydlím v Praze. Jsem na poště. Mluvíme o filmu. Po obědě."
+  },
+  "loc-sg-ma": {
+    "case": "loc",
+    "title": "Locative singular, masculine animate: -ovi / -i",
+    "explain": "Masculine animate nouns take -ovi (o Petrovi, o studentovi, o Tomášovi, o kolegovi). Soft ones can also take -i (o učiteli, o muži). Like the dative.",
+    "tip": "About a man: o + -ovi."
+  },
+  "loc-sg-mi": {
+    "case": "loc",
+    "title": "Locative singular, masculine inanimate: -ě/-e or -u, soft -i",
+    "explain": "Many hard inanimate nouns take -ě/-e (v domě, na stole, na hradě, v obchodě, po obědě). Nouns ending in k, g, h, ch take -u (v parku, ve vlaku), and so do many others, especially foreign words (o filmu, v hotelu). Soft stems take -i (v pokoji). If you're not sure, -u is very often correct, but the common places are worth learning as phrases.",
+    "tip": "v domě, na stole – but v parku, ve vlaku, v hotelu, o filmu."
+  },
+  "loc-sg-f": {
+    "case": "loc",
+    "title": "Locative singular, feminine: like the dative",
+    "explain": "Feminine -a → -ě/-e with consonant changes (Praha → v Praze, kniha → o knize, pošta → na poště, škola → ve škole, kavárna → v kavárně). Soft -e → -i (v práci, v kuchyni). Consonant-ending → -i (v kanceláři, v místnosti).",
+    "tip": "Locative feminine = dative feminine: v Praze / k Praze."
+  },
+  "loc-sg-n": {
+    "case": "loc",
+    "title": "Locative singular, neuter: -ě/-e, -u, -i, -í",
+    "explain": "Most hard neuters take -ě/-e (ve městě, v Brně, v autě, v kině, v divadle). Country names in -sko/-cko take -u (na Slovensku, v Česku, v Rakousku), and so does v metru. Soft -e → -i (na moři, na letišti). -í stays (na náměstí, na nádraží). dítě → o dítěti.",
+    "tip": "ve městě, v kině – but v Česku, na Slovensku."
+  },
+  "loc-sg-adj": {
+    "case": "loc",
+    "title": "Locative singular of adjectives and pronouns",
+    "explain": "Masculine + neuter: tom, mém/tvém/svém, našem/vašem, jejím, dobrém, moderním. Feminine: té, mé/tvé/své (also mojí/tvojí/svojí), naší/vaší, její, dobré, moderní.",
+    "tip": "v tom velkém domě, v té nové kavárně."
+  },
+  "loc-pl": {
+    "case": "loc",
+    "title": "Locative plural: -ech / -ích / -ách",
+    "explain": "Hard masculine and neuter: -ech (o studentech, v obchodech, ve městech, na stolech); -ost also -ech (v místnostech). k/h/ch soften before -ích: kluk → o klucích, park → v parcích. Soft nouns: -ích (o mužích, v pokojích, na náměstích, o přátelích). Hard feminine: -ách (o ženách, na horách). Irregular: o lidech, o dětech.",
+    "tip": "Locative plural always ends in -ch."
+  },
+  "loc-pl-adj": {
+    "case": "loc",
+    "title": "Locative plural of adjectives and pronouns",
+    "explain": "All genders: těch, mých/tvých/svých, našich/vašich, jejích, dobrých, moderních. (The same as the genitive plural.)",
+    "tip": "o těch dobrých lidech – everything ends in -ch."
+  },
+
+  "ins-prep": {
+    "case": "ins",
+    "title": "Prepositions with the instrumental",
+    "explain": "s/se (with), and for LOCATION (kde?): za (behind), pod (under), nad (above), před (in front of), mezi (between). 'se' is used before s, z, š, ž and some groups: se sestrou, se ženou, se studenty.",
+    "tip": "s kým? s čím? → instrumental. Jdu s Petrem."
+  },
+  "ins-use": {
+    "case": "ins",
+    "title": "Instrumental without a preposition: 'by means of'",
+    "explain": "Without a preposition the instrumental means the tool or means: Jedu vlakem / autobusem / tramvají (by train/bus/tram). Píšu tužkou (with a pencil). Platím kartou (by card).",
+    "tip": "Transport and tools: vlakem, autem, kartou – no preposition!"
+  },
+  "ins-sg-m": {
+    "case": "ins",
+    "title": "Instrumental singular, masculine: -em (kolega → kolegou)",
+    "explain": "All masculine nouns, animate or not, hard or soft, take -em: Petrem, studentem, Tomášem, učitelem, autobusem, počítačem, psem (fleeting e). Masculine nouns in -a take -ou: kolegou. Jiří → Jiřím.",
+    "tip": "Masculine instrumental = -em. s Petrem, s Tomášem, vlakem."
+  },
+  "ins-sg-f": {
+    "case": "ins",
+    "title": "Instrumental singular, feminine: -ou / -í",
+    "explain": "Feminine -a → -ou (sestra → sestrou, karta → kartou, škola → školou). Soft feminine -e and consonant-ending nouns → -í (židle → židlí, práce → prací, Marie → Marií, postel → postelí, tramvaj → tramvají, místnost → místností).",
+    "tip": "-a → -ou, everything else → -í."
+  },
+  "ins-sg-n": {
+    "case": "ins",
+    "title": "Instrumental singular, neuter: -em / -ím",
+    "explain": "Neuter -o and -e → -em (město → městem, mléko → mlékem, kino → kinem, moře → mořem). -í → -ím (nádraží → nádražím). dítě → dítětem, kuře → kuřetem.",
+    "tip": "Neuter = masculine here: -em (s mlékem)."
+  },
+  "ins-sg-adj": {
+    "case": "ins",
+    "title": "Instrumental singular of adjectives and pronouns",
+    "explain": "Masculine + neuter: tím, mým/tvým/svým, naším/vaším, jejím, dobrým, moderním. Feminine: tou, mou/tvou/svou (also mojí/tvojí/svojí), naší/vaší, její, dobrou, moderní.",
+    "tip": "s tím dobrým kamarádem, s tou dobrou kamarádkou."
+  },
+  "ins-pl": {
+    "case": "ins",
+    "title": "Instrumental plural: -y / -i / -ami / -emi / -mi",
+    "explain": "Hard masculine and neuter: -y (s kamarády, se studenty, mezi domy, s výsledky). Soft masculine and neuter: -i (s muži, s počítači, s přáteli, s rodiči, s vejci). Hard feminine: -ami (se ženami). Soft feminine: -emi/-ěmi (židlemi, skříněmi). -ost → -mi (místnostmi). Irregular: s lidmi, s dětmi.",
+    "tip": "Masculine plural instrumental looks like the accusative plural: s kamarády, s muži."
+  },
+  "ins-pl-adj": {
+    "case": "ins",
+    "title": "Instrumental plural of adjectives and pronouns",
+    "explain": "All genders: těmi, mými/tvými/svými, našimi/vašimi, jejími, dobrými, moderními.",
+    "tip": "s těmi dobrými lidmi – adjectives end in -ými / -ími."
+  }
+}

@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, interactive-widget=resizes-content">
+<title>Pády – Czech Cases</title>
+<meta name="theme-color" content="#2f4ac0">
+<meta name="description" content="Drill the 7 Czech cases with spaced repetition.">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="app">
+
+  <!-- ========== HOME ========== -->
+  <section id="home" class="screen" hidden>
+    <header class="top"><h1>Pády <span class="sub">Czech cases</span></h1></header>
+    <div class="stats" id="homeStats"></div>
+    <button class="btn primary huge" data-mode="quick">⚡ 5-minute practice<small>12 exercises · all cases · due items first</small></button>
+
+    <h3>Practise</h3>
+    <div class="seg" id="numSeg" role="group" aria-label="Singular or plural">
+      <button data-num="both">Singular + plural</button>
+      <button data-num="sg">Singular</button>
+      <button data-num="pl">Plural</button>
+    </div>
+    <div id="caseGrid" class="casegrid"></div>
+
+    <div class="modes">
+      <button class="btn" data-mode="preps">🧭 Prepositions only<small>which case after which preposition</small></button>
+      <button class="btn" data-mode="weak">🎯 Weak spots<small id="weakInfo"></small></button>
+    </div>
+  </section>
+
+  <!-- ========== PRACTICE ========== -->
+  <section id="practice" class="screen" hidden>
+    <header class="qtop">
+      <button class="icon" id="quitBtn" aria-label="Stop">✕</button>
+      <div class="pbar"><div id="pbarFill"></div></div>
+      <span id="qCount"></span>
+    </header>
+    <div class="qmeta" id="qMeta"></div>
+    <div class="card" id="qBody"></div>
+    <form id="ansForm" autocomplete="off">
+      <div id="chips" class="chips"></div>
+      <input id="ans" type="text" lang="cs" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" enterkeyhint="go" placeholder="Type your answer">
+      <button id="checkBtn" class="btn primary" type="submit">Check</button>
+    </form>
+    <div id="fb" hidden></div>
+  </section>
+
+  <!-- ========== SESSION DONE ========== -->
+  <section id="done" class="screen" hidden>
+    <header class="top"><h2>Session finished</h2></header>
+    <div id="doneBody"></div>
+    <button class="btn primary" id="againBtn">Practice again</button>
+    <button class="btn" data-go="home">Home</button>
+  </section>
+
+  <!-- ========== PROGRESS ========== -->
+  <section id="progress" class="screen" hidden>
+    <header class="top"><h2>Progress</h2></header>
+    <div id="progBody"></div>
+  </section>
+
+  <!-- ========== REFERENCE ========== -->
+  <section id="reference" class="screen" hidden>
+    <header class="top"><h2>Reference</h2></header>
+    <div class="tabs" id="refTabs"></div>
+    <div id="refBody"></div>
+  </section>
+
+  <!-- ========== SETTINGS ========== -->
+  <section id="settings" class="screen" hidden>
+    <header class="top"><h2>Settings</h2></header>
+    <label class="row"><span>Accept answers without accents<small>e.g. "tomase" counts as "Tomáše" (the correct accented form is still shown)</small></span><input type="checkbox" id="setLenient"></label>
+    <label class="row"><span>Show English hints<small>the small translation under each Czech sentence</small></span><input type="checkbox" id="setHints"></label>
+    <label class="row"><span>Exercises per case session<small>when you practise one case, prepositions or weak spots</small></span>
+      <select id="setLen"><option>10</option><option>15</option><option>20</option><option>30</option><option>50</option></select></label>
+    <label class="row"><span>Exercises per mixed session<small>"All cases mixed"</small></span>
+      <select id="setMixLen"><option>20</option><option>30</option><option>40</option><option>60</option><option>80</option></select></label>
+    <h3>Backup</h3>
+    <p class="muted">Your progress is saved only on this device. Export it now and then as a backup, or to move it to another device.</p>
+    <button class="btn" id="exportBtn">⬇️ Export progress</button>
+    <button class="btn" id="importBtn">⬆️ Import progress</button>
+    <input type="file" id="importFile" accept=".json,application/json" hidden>
+    <p id="backupMsg" class="muted"></p>
+    <h3>Danger zone</h3>
+    <button class="btn danger" id="resetBtn">Erase all progress</button>
+    <p class="muted small" id="aboutLine"></p>
+  </section>
+
+  <div id="loadError" class="screen" hidden></div>
+</div>
+
+<nav id="nav">
+  <button data-go="home" class="on"><span>🏠</span>Practice</button>
+  <button data-go="progress"><span>📊</span>Progress</button>
+  <button data-go="reference"><span>📖</span>Reference</button>
+  <button data-go="settings"><span>⚙️</span>Settings</button>
+</nav>
+
+<script src="js/app.js"></script>
+</body>
+</html>
